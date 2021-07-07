@@ -13,6 +13,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
-          heroku_api_key: ${{37ba5e5d-b7c8-40e1-ad98-bd96ded9291a}}
+          heroku_api_key: ${{secrets.HEROKU_TEST}}
           heroku_app_name: terakoya-test20210707
           heroku_email: hkz0405@gmail.com
